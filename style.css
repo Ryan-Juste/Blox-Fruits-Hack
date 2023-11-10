@@ -23,7 +23,7 @@ body {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-20px);
+        transform: translateY(-30px);
     }
     100% {
         transform: translateY(0);
@@ -39,7 +39,9 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    animation: float 2s infinite;
+}
 
 .profile-card .profile-header .profile-img-container {
     width: 100px;
